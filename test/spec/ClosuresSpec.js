@@ -99,7 +99,7 @@ describe('closures', function () {
 
 		it('should greet correctly', function() {
 			expect(motivation(test.first, test.last)()).toEqual(
-				"You're doing awesome, keep it up " + test.first + " " + test.last + "."
+				"You are doing awesome, keep it up " + test.first + " " + test.last + "."
 			)
 		})
 	})
